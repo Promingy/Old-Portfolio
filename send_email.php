@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send email
         if (mail($recipient, $message, $headers)) {
+            header{Location: index.html}
             echo "Email sent successfully!";
         } else {
             echo "Failed to send email. Please try again later.";
