@@ -3003,6 +3003,15 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.image.avatar img {
+				height: 225px;
+				width: 225px;
+			}
+
+			#header .image.avatar {
+				width: 12em;
+			}
+
 	}
 
 /* Large */
@@ -3045,6 +3054,10 @@ input, select, textarea {
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+			}
+
+			#header .image.avatar {
+				width: 17em;
 			}
 
 	}
@@ -3127,6 +3140,14 @@ input, select, textarea {
 				margin: 0;
 				padding: 6em 4em;
 				width: 100%;
+			}
+
+			#header .image.avatar {
+				width: 12em;
+			}
+
+			.actions.resume_button {
+				justify-content: center;
 			}
 
 	}
