@@ -24,6 +24,10 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+.resume_button {
+	justify-content: flex-end;
+	margin-top: 25px;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3221,3 +3225,4 @@ input, select, textarea {
 			}
 
 	}
+
