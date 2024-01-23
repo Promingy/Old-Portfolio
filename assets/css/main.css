@@ -2601,7 +2601,7 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 5em 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3254,9 +3254,16 @@ input, select, textarea {
 	}
 
 .resume_button {
+	flex-direction: column;
 	justify-content: flex-end;
 	margin-top: 25px;
 	color: white !important;
+}
+
+.linked_in_btn > *:hover,
+.linked_in_btn {
+	color: #0077B5 !important;
+	border-color: #0077B5 !important;
 }
 
 .technologies{
