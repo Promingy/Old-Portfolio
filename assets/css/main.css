@@ -2049,7 +2049,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2072,8 +2072,10 @@ input, select, textarea {
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
-				content: 'View';
+				background-color: white;
+				color: black;
+				font-weight: bolder;
+				content: 'Visit Site';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -3275,4 +3277,30 @@ input, select, textarea {
 .technologies > *{
 	height: 75px;
 	width: 75px;
+}
+
+.work-item.modal,
+.work-item.modal > *{
+	padding: 0;
+	margin: 0;
+}
+
+.work-item.modal > * {
+	border-bottom: 1px dotted;
+	border-bottom-color: #49bf9d;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	text-decoration: none;
+}
+
+.work-item.modal > *:hover {
+	border-bottom-color: transparent;
+}
+
+.project-links {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.project-description {
+	margin-bottom: 0em;
 }

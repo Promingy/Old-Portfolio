@@ -104,11 +104,13 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.image',
-					usePopupCaption: true,
-					usePopupDefaultStyling: false,
+					selector: '.work-item a.image', // Change this to use videos instead of images // originally was .work-item a.image
+					usePopupCaption: false,
+					popupCaptionHeight: 0,
+					popupPadding: 0,
+					usePopupDefaultStyling: true,
 					usePopupEasyClose: false,
-					usePopupNav: true,
+					usePopupNav: false,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
