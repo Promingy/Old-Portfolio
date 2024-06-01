@@ -245,6 +245,7 @@
 
 						iframe.onload = async () => {
 							const token = await fetch('https://recipe-rendezvous.onrender.com/api/')
+							console.log('Im a test', token)
 
 							iframe.contentWindow.postMessage(token, 'https://recipe-rendezvous.onrender.com/');
 						}
