@@ -239,18 +239,8 @@
 						</div>
 					</section>
 
-					<iframe id="project-frame" src="https://recipe-rendezvous.onrender.com/" height="500" width="750"/>
-					<script>
-						const iframe = document.getElementById('project-frame');
+					<iframe id="project-frame" src="https://project1.corbinainsworth.com" height="500" width="750"/>
 
-						iframe.onload = async () => {
-							const token = await fetch('https://recipe-rendezvous.onrender.com/api/')
-							console.log('Im a test', token)
-
-							iframe.contentWindow.postMessage(token, 'https://recipe-rendezvous.onrender.com/');
-						}
-
-					</script>
 
 			</div>
 
